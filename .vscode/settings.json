@@ -1,0 +1,14 @@
+{
+  "editor.snippetSuggestions": "top",     /*make sure this is NOT "none"*/
+  "editor.suggest.snippetsPreventQuickSuggestions": true,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true
+  },
+  "editor.wordBasedSuggestions": "matchingDocuments",
+  "html.suggest.html5": false,
+  "typescript.suggest.paths": true,
+  "javascript.suggest.paths": true,
+
+}

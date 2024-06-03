@@ -10,6 +10,7 @@ export const connectToDatabase = async () => {
         dbName: 'evently',
         bufferCommands: false,
     })
+    console.log(cached.promise);
     cached.conn = await cached.promise;
     return cached.conn;
 }
